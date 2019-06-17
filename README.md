@@ -2,15 +2,14 @@
 
 ## What is this?
 
-これは link:https://github.com/kamaboko123/BrowseNow[BrowseNow]のブックマークレットオンリー実装です。  
-link:https://twitter.com/intent/tweet[Twitter公式のシェア用URL]に依存しています。  
+これは [BrowseNow](https://github.com/kamaboko123/BrowseNow)のブックマークレットオンリー実装です。  
+[Twitter公式のシェア用URL](https://twitter.com/intent/tweet)に依存しています。  
 サーバなどは不要です。  
 
 ## How to use
 
 1. 下記リンクをブラウザのブックマークバーにドラッグ・アンド・ドロップして、ブックマーク登録します。  
-
-<a href="javascript: (function (e) { window.open('https://twitter.com/intent/tweet?' + 'hashtags#BrowseNowRIP&text#' + e(document.title) + '(' + e(location.href) + ')', null, 'width#520,height#500'); })(encodeURIComponent);)">BrowseNowRIP</a>
+<a href="javascript: (function (e) { window.open('https://twitter.com/intent/tweet?' + 'hashtags#BrowseNowRIP&text#' + e(document.title) + '(' + e(location.href) + ')', null, 'width#520,height#500'); })(encodeURIComponent);)">BrowseNowRIP</a>  
 
 1. 共有したいページでブックマークをクリックすると、Twitterの投稿フォームに遷移してつぶやくことができます。  
 ブラウザでTwitterにログインしていない場合は、遷移先の右上からログインしてください。  
@@ -23,8 +22,8 @@ javascript: (function (e) { window.open('https://twitter.com/intent/tweet?' + 'h
 
 ## FAQ
 
-* 推奨ブラウザは？  
-最新版のGoogle Chromeです。その他の環境では動作確認していません。
+* Q. 推奨ブラウザは？  
+A. 最新版のGoogle Chromeです。その他の環境では動作確認していません。
 
 ## Contact
 
