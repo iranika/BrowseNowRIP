@@ -2,14 +2,14 @@
 
 == What is this?
 
-これは[BrowseNow](https://github.com/kamaboko123/BrowseNow)のブックマークレットオンリー実装です。 +
-[Twitter公式のシェア用URL](https://twitter.com/intent/tweet)に依存しています。 +
+これは link:https://github.com/kamaboko123/BrowseNow[BrowseNow]のブックマークレットオンリー実装です。 +
+link:https://twitter.com/intent/tweet[Twitter公式のシェア用URL]に依存しています。 +
 サーバなどは不要です。 +
 
 == How to use
 
 . 以下のリンクをブラウザのブックマークバーにドラッグ・アンド・ドロップして、ブックマークとして登録します。 +
-link:++javascript: (function (e) { window.open("https://twitter.com/intent/tweet?" + "hashtags=BrowseNowRIP&text=" + e(document.title) + "(" + e(location.href) + ")", null, "width=520,height=500"); })(encodeURIComponent);++[BrowseNowRIP]
+link:++javascript: (function (e) { window.open('https://twitter.com/intent/tweet?' + 'hashtags=BrowseNowRIP&text=' + e(document.title) + '(' + e(location.href) + ')', null, 'width=520,height=500'); })(encodeURIComponent);++[BrowseNowRIP]
 
 . 共有したいページでブックマークをクリックすると、Twitterの投稿フォームに遷移してつぶやくことができます。  
 ブラウザでTwitterにログインしていない場合は、遷移先の右上からログインしてください。
