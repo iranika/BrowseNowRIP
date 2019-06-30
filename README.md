@@ -10,7 +10,7 @@
 
 下記のページを参照してください。
 
-https://iranika.github.io/BrowseNowRIP/
+https://iranika.github.io/BrowseNowRIP/index.html
 
 ## FAQ
 
